@@ -16,37 +16,47 @@
 
         h1 {
             color: #222;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #555;
+            font-size: 18px;
         }
 
         .team {
             display: flex;
             justify-content: center;
-            gap: 25px;
+            gap: 30px;
             flex-wrap: wrap;
-            margin-top: 30px;
+            margin-top: 40px;
         }
 
         .member {
             background-color: white;
-            width: 220px;
-            padding: 20px;
+            width: 230px;
+            padding: 25px;
             border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
         .member img {
-            width: 120px;
-            height: 120px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             object-fit: cover;
+            border: 3px solid #eee;
         }
 
         .member h2 {
             margin: 15px 0 8px;
+            color: #222;
         }
 
         .member p {
             color: #555;
+            font-size: 16px;
+            line-height: 1.4;
         }
     </style>
 </head>
@@ -55,24 +65,29 @@
 
     <h1>Welcome to Our Team</h1>
 
-    <p>Meet the members of our product-based startup</p>
+    <p class="subtitle">
+        Meet the members of our product-based startup
+    </p>
 
     <div class="team">
 
+        <!-- Meghana -->
         <div class="member">
-            <img src="https://via.placeholder.com/120" alt="Meghana">
+            <img src="pics/01_am_hero.jpg" alt="Meghana">
             <h2>Meghana</h2>
             <p>Department: Computer Science</p>
         </div>
 
+        <!-- Rahul -->
         <div class="member">
-            <img src="https://via.placeholder.com/120" alt="Rahul">
+            <img src="pics/2.jpeg" alt="Rahul">
             <h2>Rahul</h2>
             <p>Department: Software Development</p>
         </div>
 
+        <!-- Priya -->
         <div class="member">
-            <img src="https://via.placeholder.com/120" alt="Priya">
+            <img src="pics/WhatsApp Image 2025-09-25 at 11.07.11_1dd31e49.jpg" alt="Priya">
             <h2>Priya</h2>
             <p>Department: UI/UX Design</p>
         </div>
